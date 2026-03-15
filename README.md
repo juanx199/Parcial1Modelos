@@ -7,7 +7,7 @@ Este proyecto implementa un sistema robusto de generación y exportación de inf
 El sistema se divide en módulos dentro del paquete `parcial1.modelos`, distribuidos de la siguiente manera:
 
 ### 1. Patrón Bridge 
-* **Abstracciones (`.reports`):** * `Report` (Base)
+* **Abstracciones (`.reports`): `Report` (Base)
     * `DetailedReport`
     * `ExecutiveReport`
 * **Implementaciones (`.exporters`):** * `Exporter` (Interfaz)
