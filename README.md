@@ -101,7 +101,7 @@ frame "Proyecto: Parcial1Modelos" {
     }
 }
 
-' Relaciones con etiquetas para que el profesor las vea
+
 Report o-right-> Exporter : "Bridge"
 StyleFactory ..> TextStyle : "Flyweight"
 ReportDecorator -up-|> Report
