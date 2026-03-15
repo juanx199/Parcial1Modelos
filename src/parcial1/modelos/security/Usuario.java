@@ -9,5 +9,14 @@ package parcial1.modelos.security;
  * @author JUANCA
  */
 public class Usuario {
+    private String nombre;
+    private String rol; //Admin o usuario
     
+    public Usuario(String nombre, String rol){
+        this.nombre = nombre;
+        this.rol = rol;
+    }
+    
+    public String getNomre() {return nombre;}
+    public String getRol() {return rol;}
 }

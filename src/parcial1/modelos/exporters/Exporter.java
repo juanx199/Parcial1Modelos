@@ -9,5 +9,5 @@ package parcial1.modelos.exporters;
  * @author JUANCA
  */
 public interface Exporter {
-    
+    void export(String title, String content);
 }

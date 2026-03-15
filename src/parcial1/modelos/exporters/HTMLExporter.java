@@ -8,6 +8,13 @@ package parcial1.modelos.exporters;
  *
  * @author JUANCA
  */
-public class HTMLExporter {
+public class HTMLExporter implements Exporter {
+    @Override
+    public void export(String title, String content){
+        System.out.println("<html>");
+        System.out.println("<head><title>" +  title + "</title></head>");
+        System.out.println("<body><p>" + content + "</p></body>");
+        System.out.println("</html>");
+    }
     
 }

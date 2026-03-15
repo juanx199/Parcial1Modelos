@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/JUANCA/Documents/NetBeansProjects/Parcial1Modelos/src/parcial1modelos/main/Main.java</file>
+            <file>file:/C:/Users/JUANCA/Documents/NetBeansProjects/Parcial1Modelos/src/parcial1/modelos/reports/Report.java</file>
+            <file>file:/C:/Users/JUANCA/Documents/NetBeansProjects/Parcial1Modelos/src/parcial1/modelos/reports/DetailedReport.java</file>
+            <file>file:/C:/Users/JUANCA/Documents/NetBeansProjects/Parcial1Modelos/src/parcial1/modelos/reports/ExecutiveReport.java</file>
+            <file>file:/C:/Users/JUANCA/Documents/NetBeansProjects/Parcial1Modelos/src/parcial1/modelos/exporters/Exporter.java</file>
+            <file>file:/C:/Users/JUANCA/Documents/NetBeansProjects/Parcial1Modelos/src/parcial1/modelos/exporters/PDFExporter.java</file>
+            <file>file:/C:/Users/JUANCA/Documents/NetBeansProjects/Parcial1Modelos/src/parcial1/modelos/exporters/HTMLExporter.java</file>
+            <file>file:/C:/Users/JUANCA/Documents/NetBeansProjects/Parcial1Modelos/src/parcial1/modelos/decorators/ReportDecorator.java</file>
+            <file>file:/C:/Users/JUANCA/Documents/NetBeansProjects/Parcial1Modelos/src/parcial1/modelos/decorators/MarcaAguaDecorator.java</file>
+            <file>file:/C:/Users/JUANCA/Documents/NetBeansProjects/Parcial1Modelos/src/parcial1/modelos/decorators/HeaderDecorator.java</file>
+            <file>file:/C:/Users/JUANCA/Documents/NetBeansProjects/Parcial1Modelos/src/parcial1/modelos/styles/TextStyle.java</file>
+            <file>file:/C:/Users/JUANCA/Documents/NetBeansProjects/Parcial1Modelos/src/parcial1/modelos/styles/StyleFactory.java</file>
+            <file>file:/C:/Users/JUANCA/Documents/NetBeansProjects/Parcial1Modelos/src/parcial1/modelos/security/ReportProxy.java</file>
+            <file>file:/C:/Users/JUANCA/Documents/NetBeansProjects/Parcial1Modelos/src/parcial1/modelos/security/Usuario.java</file>
+        </group>
+    </open-files>
+</project-private>
