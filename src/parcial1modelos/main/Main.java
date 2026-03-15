@@ -4,17 +4,20 @@
  */
 package parcial1modelos.main;
 
+import parcial1.modelos.styles.StyleFactory;
+import parcial1.modelos.styles.TextStyle;
+import parcial1.modelos.exporters.PDFExporter;
+import parcial1.modelos.exporters.Exporter;
 /**
  *
  * @author JUANCA
  */
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        //prueba peso ligero
+        TextStyle s1 = StyleFactory.getStyle("Arial", 12 , "Rojo");
+        TextStyle s2 = StyleFactory.getStyle("Arial", 12 , "Rojo"); //Debería decir que se reutiliza
     }
     
 }
