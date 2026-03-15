@@ -38,3 +38,75 @@ src/
 └── parcial1.modelos.security/    # Proxy y entidad de Usuario
 └── parcial1.modelos.styles/      # Gestión de estilos (Flyweight)
 └── parcial1.modelos.main/        # Punto de entrada (Main.java)
+
+@startuml
+
+skinparam PackageFontSize 14
+skinparam ClassFontSize 12
+skinparam nodesep 50
+skinparam ranksep 50
+
+frame "Proyecto: Parcial1Modelos" {
+
+    package "main" {
+        class Main {
+            + {static} main(args)
+        }
+    }
+
+    package "styles" {
+        class StyleFactory {
+            + {static} getStyle(): TextStyle
+        }
+        class TextStyle {
+            - font: String
+            - size: int
+            - color: String
+        }
+    }
+
+    package "security" {
+        class Usuario {
+            - nombre: String
+            - rol: String
+        }
+        class ReportProxy {
+            + generate(t, c)
+        }
+    }
+
+    package "reports" {
+        abstract class Report {
+            # exporter: Exporter
+            + {abstract} generate(t, c)
+        }
+        class DetailedReport
+        class ExecutiveReport
+    }
+
+    package "exporters" {
+        interface Exporter {
+            + export(t, c)
+        }
+        class PDFExporter
+        class HTMLExporter
+    }
+
+    package "decorators" {
+        abstract class ReportDecorator {
+            # decoratedReport: Report
+        }
+        class HeaderDecorator
+        class MarcaAguaDecorator
+    }
+}
+
+' Relaciones con etiquetas para que el profesor las vea
+Report o-right-> Exporter : "Bridge"
+StyleFactory ..> TextStyle : "Flyweight"
+ReportDecorator -up-|> Report
+ReportDecorator o-- Report : "Decorator"
+ReportProxy -up-|> Report
+ReportProxy o-- Report : "Proxy"
+Main ..> ReportProxy : "Usa"
+@enduml
